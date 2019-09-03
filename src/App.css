@@ -31,12 +31,16 @@
   font-weight: bold
 }
 .ant-form {
- padding: 10px;
+ padding: 15px;
 }
  .login-form {
-  max-width: 300px;
+  max-width: 350px;
   background: #fff;
   border-radius: 10px;
+  position: relative;
+  top:50%;
+  left: 70%;
+  transform: translateY(-60%)
 }
 .login-form-forgot {
   float: right;

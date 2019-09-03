@@ -4,7 +4,6 @@ const { SubMenu } = Menu;
 
 import * as React from 'react';
 
-
 class Home extends React.Component{    
 
       public onCollapse = (collapsed:any) => {
