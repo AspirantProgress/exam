@@ -5,7 +5,6 @@ import * as ReactDOM from 'react-dom';
 import RouterView from "./router/index";
 import router from "./router/routeList";
 import { BrowserRouter } from "react-router-dom";
-console.log(router.routes)
 //antd 引入全局样式
 import "antd/dist/antd.css";
 
