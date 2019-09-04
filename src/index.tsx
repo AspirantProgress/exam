@@ -9,13 +9,16 @@ import { BrowserRouter } from "react-router-dom";
 import "antd/dist/antd.css";
 
 //引入全局样式
-import './App.css';
+import './index.css';
 
 //引入mobx实例
 import { Provider } from "mobx-react";
 
+//引入仓库
+import store from "./store/index"
+
 ReactDOM.render(
-  <Provider>
+  <Provider {...store}>
     <BrowserRouter>
       <RouterView routes={router.routes} />
     </BrowserRouter>
